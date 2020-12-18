@@ -105,38 +105,3 @@ button:focus{
   display:none;
 }
 
-@media (min-width: 601px) and (max-width: 980px) {
-    body {
-      overflow-y: auto;
-    }
-    .card {
-      flex: 45%;
-      max-width: 45%;
-    }
-    .display {
-      width: 80%;
-    }
-    .main-description {
-      min-height: 34px;
-    }
-  }
-  @media (max-width: 600px) {
-    body {
-      overflow-y: auto;
-    }
-    .card {
-      flex: 100%;
-      max-width: 100%;
-    }
-    .display {
-      width: 90%;
-    }
-    .table {
-      width: 100%;
-      margin-top: 4rem;
-    }
-    .table-body {
-      height: 60vh;
-    }
-  }
-
